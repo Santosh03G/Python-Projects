@@ -1,0 +1,222 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": [
+          "Hi",
+          "Hey",
+          "How are you",
+          "Is anyone there?",
+          "Hello",
+          "Good day"
+        ],
+        "responses": [
+          "Hey :-)",
+          "Hello, thanks for visiting",
+          "Hi there, what can I do for you?",
+          "Hi there, how can I help?"
+        ]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": ["Bye", "See you later", "Goodbye"],
+        "responses": [
+          "See you later, thanks for visiting",
+          "Have a nice day",
+          "Bye! Come back again soon."
+        ]
+      },
+      {
+        "tag": "thanks",
+        "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+        "responses": ["Happy to help!", "Any time!", "My pleasure"]
+      },
+      {
+        "tag": "items",
+        "patterns": [
+          "Which items do you have?",
+          "What kinds of items are there?",
+          "What do you sell?",
+          "what do you have"
+        ],
+        "responses": [
+          "We sell all types of indian and chinese foods",
+          "We have all types of indian and chinese foods"
+        ]
+      },
+      {
+       "tag": "main course chicken",
+       "patterns": [
+         "what are the Chicken main course here",
+         "what are the Chicken main course",
+         "what  types of Chicken main course do you serve",
+         "what do you serve as Chicken main course"
+        ],
+        "responses":[
+          "The main dish which we serve are :1)Chicken masala 2)Chicken methi 3)Chicken Rogoan josh",
+          "The types of chicken main dish served here are :1)Chicken masala 2)Chicken methi 3)Chicken Rogoan josh"
+        ]
+
+          
+          
+        
+      
+      },
+      {
+        "tag": "Non-veg Starters",
+        "patterns":[
+          "what all non-veg starters will you serve",
+          "what are the non-veg starters do you have here",
+          "what kind of non-veg Starters do you serve",
+          "what are the non-veg starters",
+          "what are the best non-veg starters of your hotel",
+          "I want non-veg starters"
+        ],
+        "responses":[
+           "The non-veg starters are 1)Squid Meshwy 2)Moroccan Dejaj",
+            "The non-veg starters which we have are 1)Squid Meshwy 2)Moroccan Dejaj"
+        ]
+        
+      },
+      {
+        "tag": "veg starters",
+        "patterns":[
+          "what all veg starters will you serve",
+          "what are the veg starters do you have here",
+          "what kind of veg Starters do you serve",
+          "what are the veg starters",
+          "what are the best veg starters of your hotel",
+          "i want veg starters"
+        ],
+        "responses":[
+          "The veg starters are 1)Panner 65 2)Mushroom Lolypop",
+            "The veg starters which we have are 1)Panner 65 2)Mushroom Lolypop"
+        ]
+      },
+      {
+        "tag": "Bevarages",
+        "patterns":[
+          "What types of bevarages do you have ?",
+          "Do you serve Coffee?",
+          "Do you serve Tea?",
+          "Can i get a coffee",
+          "can i get a tea",
+          "Do you have hot choclate",
+          "can i get a Hot choclate"
+        ],
+        "responses":[
+          "The Types of bevarages which we have are : 1) Coffee 2)Tea 3)Hot Choclate",
+          "Yes, we do serve coffee ",
+          "Yes, we do serve Tea",
+          "Sure, i will add a coffee to your list",
+          "Sure, i will add a Tea to your list "
+        ]
+
+        
+      },
+      {
+        "tag": "main course seafood",
+        "patterns":[
+          "what are the SeaFood main course here",
+         "what are the seafood main course",
+         "what  types of Fish main course do you serve",
+         "what do you serve as Fish main course"
+        ],
+        "responses":[
+          "The Seafood Main Course  which we serve are :1)Fish masala 2)Prawn rost 3)Fish Rogoan josh",
+          "The types of Fish main Course served here are :1)Fish masala 2)Fish methi 3)Fish Rogoan josh"
+        ]
+      },
+      {
+        "tag": "cards",
+        "patterns": [
+          "Do you take credit cards?",
+          "Do you accept Mastercard?",
+          "Can I pay with GooglePay?",
+          "Are you cash only?"
+          
+          
+        ],
+        "responses": [
+          "We accept VISA, Mastercard and Paypal",
+          "We accept most major credit cards, and Paypal"
+          
+
+        ]
+      },
+      {
+        "tag": "delivery",
+        "patterns": [
+          "How long does delivery take?",
+          "How long does shipping take?",
+          "When do I get my delivery?"
+        ],
+        "responses": [
+          "It depends on your location ",
+          "It depends on your location"
+        ]
+      },
+      {
+        "tag": "google pay",
+        "patterns": [
+          "Can I pay with GooglePay?",
+          "will i be able to use google pay"
+          
+        ],
+        "responses":[
+          "Yes you can pay using google pay our google pay number is = 987059XXXXX"
+        ]
+      },
+      {
+        "tag": "phonepe",
+        "patterns":[
+          "can I pay with Phonepe?",
+          "will i be able to pay with phonepe?",
+          "will i be able to use phonepe"
+        ],
+        "responses":[
+          "yes you can pay with phonepe. Our Phonepe number is = 986059XXXXX"
+          
+        ]
+
+
+        
+      },
+      {
+        "tag": "Paytm",
+        "patterns":[
+          "can i pay with Paytm?",
+          "will i be able to pay with Paytm?",
+          "will i be able to use Paytm"
+        ],
+        "responses":[
+          "Yes you can pay using Paytm number is = 987059XXXXX"
+        ]
+      },
+      {
+        "tag": "shawarma",
+        "patterns": [
+          "I need a shawarma",
+          "i want a shawarma",
+          "do you have shawarma",
+          "what types of shawarma do you have"
+        ],
+        "responses":[
+          "Yes we have normal shawarma , Hulk shawarma , plate shawarma"
+        ]
+      },
+      {
+        "tag": "information",
+        "patterns": [
+          "what is your name ",
+          "do you have a name ",
+          "what should i call you as "
+        ],
+        "responses": [
+          "My name is Tony Stark i am a food ordering chatbot for XYZ company"
+          
+
+        ]
+      }
+    ]
+  }
